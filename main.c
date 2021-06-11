@@ -60,6 +60,7 @@ int main()
             printf("please,enter the new Author of the book:*\n");
             fflush(stdin);
             gets(z);
+            Delete_Book(id);
             Add_Book(id,y,z);
             writeToFile(id,y,z);
             printf("\nBook Edited Successful!!\n");
